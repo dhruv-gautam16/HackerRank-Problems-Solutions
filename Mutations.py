@@ -1,5 +1,5 @@
 def mutate_string(string, position, character):
-    # Mutations in Python - HackerRank Solution START
+   
     pos = position+1
     Output = string[:position]+character+string[pos:]
     return Output
